@@ -1,4 +1,4 @@
-"""Change Celsius to Fahrenheit"""
+"""Convert Celsius to Fahrenheit and vice versa"""
 
 MENU = """C - Convert Celsius to Fahrenheit
 F - Convert Fahrenheit to Celsius
