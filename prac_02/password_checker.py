@@ -1,7 +1,4 @@
-"""
-CP1404/CP5632 - Practical
-Password checker "skeleton" code to help you get started
-"""
+""" Check Password"""
 
 MIN_LENGTH = 2
 MAX_LENGTH = 6
