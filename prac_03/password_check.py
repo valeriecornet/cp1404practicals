@@ -1,3 +1,5 @@
+"""Check password"""
+
 MIN_LENGTH = 6
 
 
