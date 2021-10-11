@@ -2,7 +2,7 @@
 
 word_list = {}
 string = input("Enter string: ")
-print(string)
+print("Text: ", string)
 words = string.split()
 for word in words:
     occurrence = word_list.get(word, 0)
