@@ -1,4 +1,4 @@
-"""Simple programming language class"""
+""" Simple programming language class """
 
 
 class ProgrammingLanguage:
