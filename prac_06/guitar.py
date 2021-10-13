@@ -1,4 +1,5 @@
-"""Define Guitar class"""
+""" Define Guitar class """
+
 
 class Guitar:
     """Represent a guitar object"""

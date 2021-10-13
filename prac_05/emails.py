@@ -1,4 +1,5 @@
-"""Email storage"""
+""" Email storage """
+
 
 def main():
     emails_and_names = {}

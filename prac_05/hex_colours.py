@@ -1,4 +1,4 @@
-"""Hexadecimal colour dictionary"""
+""" Hexadecimal colour dictionary """
 
 HEX_COLOURS = {"AliceBlue": "#f0f8ff", "AntiqueWhite": "#faebd7", "aquamarine1": "#7fffd4", "blue1": "#0000ff", "brown": "#a52a2a", "CadetBlue": "#5f9ea0", "chartreuse1": "#7fff00", "coral": "#ff7f50", "DarkOrchid": "#9932cc", "gold1": "#ffd700"}
 

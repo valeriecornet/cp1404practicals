@@ -1,4 +1,4 @@
-"""Playing the guitar"""
+""" Playing the guitar with Guitar class """
 
 from guitar import Guitar
 
