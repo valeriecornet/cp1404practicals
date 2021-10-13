@@ -1,4 +1,4 @@
-"""Count word occurrences"""
+""" Count word occurrences """
 
 word_list = {}
 string = input("Enter string: ")
