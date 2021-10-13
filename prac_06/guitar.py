@@ -1,4 +1,4 @@
-"""Define Guitar class"""
+""" Define Guitar class """
 
 
 class Guitar:

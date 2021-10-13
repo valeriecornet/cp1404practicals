@@ -1,4 +1,4 @@
-"""Testing guitar class methods and printing"""
+""" Testing guitar class methods and printing """
 
 from guitar import Guitar
 

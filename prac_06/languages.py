@@ -1,4 +1,4 @@
-"""Client code."""
+""" Client code """
 
 from programming_language import ProgrammingLanguage
 

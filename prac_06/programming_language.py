@@ -1,4 +1,4 @@
-""" Simple programming language class """
+""" Programming language class """
 
 
 class ProgrammingLanguage:
