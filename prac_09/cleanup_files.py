@@ -21,22 +21,22 @@ def main():
 
 def get_fixed_filename(filename):
     """Return a 'fixed' version of filename."""
-    new_name = list(filename)
-    for i, char in enumerate(new_name):
+    new_filename = list(filename)
+    for i, char in enumerate(new_filename):
         if char.isupper() and i != 0:
-            if new_name[i - 1] != " " and new_name[i - 1] != "(" and new_name[i - 1] != "_(":
-                new_name[i] = char.replace(char, f"_{char}")
-        if not char.isupper() and new_name[i-1] == " " or i == 0 or new_name[i-1] == "(" or new_name[i-1] == "_":
-            new_name[i] = char.upper()
+            if new_filename[i - 1] != " " and new_filename[i - 1] != "(" and new_filename[i - 1] != "_(":
+                new_filename[i] = char.replace(char, f"_{char}")
+        if not char.isupper() and new_filename[i-1] == " " or i == 0 or new_filename[i-1] == "(" or new_filename[i-1] == "_":
+            new_filename[i] = char.upper()
         if char == " ":
-            new_name[i] = char.replace(" ", "_")
-        if char == "(" and new_name[i-1] != "_":
-            new_name[i] = char.replace(char, f"_{char}")
+            new_filename[i] = char.replace(" ", "_")
+        if char == "(" and new_filename[i-1] != "_":
+            new_filename[i] = char.replace(char, f"_{char}")
         if char == '.':
             break
-    new_name = "".join(new_name)
-    new_name = new_name.replace(".TXT", ".txt")
-    return new_name
+    new_filename = "".join(new_filename)
+    new_filename = new_filename.replace(".TXT", ".txt")
+    return new_filename
 
 
 main()
