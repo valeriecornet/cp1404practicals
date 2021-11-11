@@ -20,4 +20,3 @@ while wiki_prompt != "":
     except PageError:
         print("Page Error")
     wiki_prompt = input("Enter page title or search phrase: ")
-
