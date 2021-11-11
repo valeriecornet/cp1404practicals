@@ -1,4 +1,6 @@
-"""Wiki summary"""
+"""
+Wiki summary
+"""
 
 import wikipedia
 from wikipedia import DisambiguationError, PageError
